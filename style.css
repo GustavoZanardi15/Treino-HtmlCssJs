@@ -31,12 +31,20 @@ p{
    color: white;
 }
 
+input{
+    margin: 10px;
+    padding: 10px 70px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
 .card button{
 
   padding: 15px 50px;
   margin: 35px;
   background:  #565656;
   border-radius: 10px;
+  border: 1px solid;
 }
 
 .card button:hover{
