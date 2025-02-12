@@ -1,9 +1,85 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
+    display: flex;
     background-image: linear-gradient(#000000, #fd0000);
-    height: 100vh;
+   
 }
+
+.card{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+   height: 100vh;
+  
+}
+
+h1{
+   font-size: 35px;
+   color: white;
+}
+
+p{
+    font-size: 15px;
+   color: white;
+}
+
+.card button{
+  padding: 15px 50px;
+  margin: 35px;
+  background: linear-gradient(0deg, #565656, #000000);
+  border-radius: 10px;
+}
+
+
+/*Estilize:
+Crie um estilo básico para o botão (cor de fundo, borda arredondada, etc.).
+Exercício 2: Layout Flexível
+Objetivo: Criar um layout de duas colunas utilizando Flexbox.
+
+Passos:
+
+Crie uma estrutura HTML com:
+Um header (<header>) com o nome da sua página.
+Duas seções principais: uma coluna de conteúdo e uma coluna lateral (por exemplo, para um menu ou uma barra lateral).
+Estilize usando Flexbox:
+Defina o layout para que a coluna de conteúdo ocupe mais espaço que a coluna lateral.
+Adicione algum espaçamento entre as colunas e o conteúdo geral.
+Garanta que o layout seja responsivo.
+Exercício 3: Interatividade com JavaScript
+Objetivo: Adicionar interação com JavaScript.
+
+Passos:
+
+Crie um formulário com dois campos de entrada de texto (nome e e-mail) e um botão de envio.
+Utilize JavaScript para:
+Validar se ambos os campos foram preenchidos.
+Exibir uma mensagem de erro caso algum campo não tenha sido preenchido.
+Mostrar um alerta de "Formulário enviado com sucesso" quando o formulário for validado corretamente.
+Exercício 4: Galeria de Imagens
+Objetivo: Criar uma galeria de imagens interativa.
+
+Passos:
+
+Crie uma página com várias imagens dispostas em uma grade.
+Utilize o CSS Grid para organizar as imagens.
+Adicione um efeito hover nas imagens com CSS (ex: aumentar a escala ao passar o mouse).
+Utilize JavaScript para abrir uma imagem em uma janela modal (quando clicada).
+Exercício 5: To-Do List com Armazenamento Local
+Objetivo: Criar uma lista de tarefas que armazena dados no armazenamento local.
+
+Passos:
+
+Crie uma página com um campo de entrada para adicionar novas tarefas e um botão para adicionar.
+Liste as tarefas com uma caixa de seleção ao lado de cada uma.
+Adicione a funcionalidade de remover uma tarefa ao clicar em um botão de exclusão.
+Salve as tarefas no armazenamento local para que elas persistam mesmo quando a página for recarregada.
+Esses exercícios vão te ajudar a praticar e integrar HTML, CSS e JavaScript. Se você quiser mais 
+detalhes sobre algum exercício ou precisar de ajuda para implementar, só avisar!*/
